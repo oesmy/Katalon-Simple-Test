@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Regression Login" time="107" tests="2" failures="0" errors="0">
+    <testsuite name="Regression Login" tests="2" failures="0" errors="0" time="107" timestamp="2020-02-11 19:15:32" hostname="asus - Welcome" id="Test Suites/Regression Login">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="D:\\Latihan\\Reports\\20200211_191528\\Regression Login\\20200211_191529"/>
+            <property name="logFiles" value="D:\\Latihan\\Reports\\20200211_191528\\Regression Login\\20200211_191529\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="asus - Welcome"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Chrome 79.0.3945.130"/>
+            <property name="hostAddress" value="192.168.132.175"/>
+            <property name="sessionId" value="ef2b2132d5fd091e131a070349cb4b28"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/Make Sure Alert Appear When User Input Wrong Password" classname="Test Cases/Make Sure Alert Appear When User Input Wrong Password" status="PASSED">
+            <system-out>2020-02-11 19:15:32 - [TEST_CASE][PASSED] - Test Cases/Make Sure Alert Appear When User Input Wrong Password: Test Cases/Make Sure Alert Appear When User Input Wrong Password&#xD;
+&#xD;
+2020-02-11 19:15:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2020-02-11 19:15:33 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2020-02-11 19:15:33 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2020-02-11 19:15:40 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2020-02-11 19:15:40 - [TEST_STEP][PASSED] - navigateToUrl("https://www.lakupon.com"): Navigate to 'https://www.lakupon.com' successfully&#xD;
+&#xD;
+2020-02-11 19:16:14 - [MESSAGE][PASSED] - Navigate to 'https://www.lakupon.com' successfully&#xD;
+&#xD;
+2020-02-11 19:16:14 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_LaKuponcom  Website Daily Deals Dengan Harga Promo Diskon Hingga 90/a_Profil")): Object: 'Object Repository/Login/Page_LaKuponcom  Website Daily Deals Dengan Harga Promo Diskon Hingga 90/a_Profil' is clicked on&#xD;
+&#xD;
+2020-02-11 19:16:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_LaKuponcom  Website Daily Deals Dengan Harga Promo Diskon Hingga 90/a_Profil' is clicked on&#xD;
+&#xD;
+2020-02-11 19:16:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/Page_Login/label_No Ponsel atau email"), "No Ponsel atau email"): Actual text and expected text of test object 'Object Repository/Login/Page_Login/label_No Ponsel atau email' are matched.&#xD;
+&#xD;
+2020-02-11 19:16:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_Login/label_No Ponsel atau email' are matched.&#xD;
+&#xD;
+2020-02-11 19:16:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Page_Login/input_No Ponsel atau email_login"), "munandar.workspace@gmail.com"): Keys 'munandar.workspace@gmail.com' sent to object: 'Object Repository/Login/Page_Login/input_No Ponsel atau email_login'&#xD;
+&#xD;
+2020-02-11 19:16:17 - [MESSAGE][PASSED] - Keys 'munandar.workspace@gmail.com' sent to object: 'Object Repository/Login/Page_Login/input_No Ponsel atau email_login'&#xD;
+&#xD;
+2020-02-11 19:16:17 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Login/button_Masuk")): Object: 'Object Repository/Login/Page_Login/button_Masuk' is clicked on&#xD;
+&#xD;
+2020-02-11 19:16:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Login/button_Masuk' is clicked on&#xD;
+&#xD;
+2020-02-11 19:16:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Page_Login/input_Kata Sandi_password"), 5): Object 'Object Repository/Login/Page_Login/input_Kata Sandi_password' is present&#xD;
+&#xD;
+2020-02-11 19:16:18 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Page_Login/input_Kata Sandi_password' is present&#xD;
+&#xD;
+2020-02-11 19:16:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Page_Login/input_Kata Sandi_password"), "v2YM3YkQ2cA="): Text ****** has been set on object 'Object Repository/Login/Page_Login/input_Kata Sandi_password'&#xD;
+&#xD;
+2020-02-11 19:16:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_Login/input_Kata Sandi_password'&#xD;
+&#xD;
+2020-02-11 19:16:19 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Login/button_Masuk")): Object: 'Object Repository/Login/Page_Login/button_Masuk' is clicked on&#xD;
+&#xD;
+2020-02-11 19:16:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Login/button_Masuk' is clicked on&#xD;
+&#xD;
+2020-02-11 19:16:19 - [TEST_STEP][PASSED] - text = getText(findTestObject("NegativeCase/Page_Login/div_Email atau kata sandi salah")): Text of object 'Object Repository/NegativeCase/Page_Login/div_Email atau kata sandi salah' is: 'Email atau kata sandi salah'&#xD;
+&#xD;
+2020-02-11 19:16:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/NegativeCase/Page_Login/div_Email atau kata sandi salah' is: 'Email atau kata sandi salah'&#xD;
+&#xD;
+2020-02-11 19:16:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("NegativeCase/Page_Login/div_Email atau kata sandi salah"), text): Actual text and expected text of test object 'Object Repository/NegativeCase/Page_Login/div_Email atau kata sandi salah' are matched.&#xD;
+&#xD;
+2020-02-11 19:16:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/NegativeCase/Page_Login/div_Email atau kata sandi salah' are matched.&#xD;
+&#xD;
+2020-02-11 19:16:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed&#xD;
+&#xD;
+2020-02-11 19:16:20 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Make sure user can login" classname="Test Cases/Make sure user can login" status="PASSED">
+            <system-out>2020-02-11 19:16:20 - [TEST_CASE][PASSED] - Test Cases/Make sure user can login: Test Cases/Make sure user can login&#xD;
+&#xD;
+2020-02-11 19:16:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2020-02-11 19:16:21 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2020-02-11 19:16:26 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2020-02-11 19:16:26 - [TEST_STEP][PASSED] - navigateToUrl("https://www.lakupon.com"): Navigate to 'https://www.lakupon.com' successfully&#xD;
+&#xD;
+2020-02-11 19:17:05 - [MESSAGE][PASSED] - Navigate to 'https://www.lakupon.com' successfully&#xD;
+&#xD;
+2020-02-11 19:17:05 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_LaKuponcom  Website Daily Deals Dengan Harga Promo Diskon Hingga 90/a_Profil")): Object: 'Object Repository/Login/Page_LaKuponcom  Website Daily Deals Dengan Harga Promo Diskon Hingga 90/a_Profil' is clicked on&#xD;
+&#xD;
+2020-02-11 19:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_LaKuponcom  Website Daily Deals Dengan Harga Promo Diskon Hingga 90/a_Profil' is clicked on&#xD;
+&#xD;
+2020-02-11 19:17:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/Page_Login/label_No Ponsel atau email"), "No Ponsel atau email"): Actual text and expected text of test object 'Object Repository/Login/Page_Login/label_No Ponsel atau email' are matched.&#xD;
+&#xD;
+2020-02-11 19:17:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_Login/label_No Ponsel atau email' are matched.&#xD;
+&#xD;
+2020-02-11 19:17:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Page_Login/input_No Ponsel atau email_login"), "munandar.workspace@gmail.com"): Keys 'munandar.workspace@gmail.com' sent to object: 'Object Repository/Login/Page_Login/input_No Ponsel atau email_login'&#xD;
+&#xD;
+2020-02-11 19:17:08 - [MESSAGE][PASSED] - Keys 'munandar.workspace@gmail.com' sent to object: 'Object Repository/Login/Page_Login/input_No Ponsel atau email_login'&#xD;
+&#xD;
+2020-02-11 19:17:08 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Login/button_Masuk")): Object: 'Object Repository/Login/Page_Login/button_Masuk' is clicked on&#xD;
+&#xD;
+2020-02-11 19:17:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Login/button_Masuk' is clicked on&#xD;
+&#xD;
+2020-02-11 19:17:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Page_Login/input_Kata Sandi_password"), 5): Object 'Object Repository/Login/Page_Login/input_Kata Sandi_password' is present&#xD;
+&#xD;
+2020-02-11 19:17:13 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Page_Login/input_Kata Sandi_password' is present&#xD;
+&#xD;
+2020-02-11 19:17:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Page_Login/input_Kata Sandi_password"), "gtA9bMosRxsnSd5KeYzPZw=="): Text ****** has been set on object 'Object Repository/Login/Page_Login/input_Kata Sandi_password'&#xD;
+&#xD;
+2020-02-11 19:17:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_Login/input_Kata Sandi_password'&#xD;
+&#xD;
+2020-02-11 19:17:13 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Login/button_Masuk")): Object: 'Object Repository/Login/Page_Login/button_Masuk' is clicked on&#xD;
+&#xD;
+2020-02-11 19:17:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Login/button_Masuk' is clicked on&#xD;
+&#xD;
+2020-02-11 19:17:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/Page_Profil/h1_Profil"), "Profil"): Actual text and expected text of test object 'Object Repository/Login/Page_Profil/h1_Profil' are matched.&#xD;
+&#xD;
+2020-02-11 19:17:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_Profil/h1_Profil' are matched.&#xD;
+&#xD;
+2020-02-11 19:17:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed&#xD;
+&#xD;
+2020-02-11 19:17:19 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2020-02-11 19:15:32 - [TEST_SUITE][INCOMPLETE] - Regression Login: null</system-out>
+        <system-err>2020-02-11 19:15:32 - [TEST_SUITE][INCOMPLETE] - Regression Login: null</system-err>
+    </testsuite>
+</testsuites>

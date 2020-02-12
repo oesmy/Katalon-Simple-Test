@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Login,,,,2020-02-11 19:25:58,2020-02-11 19:26:04,5.913s,INCOMPLETE
+,,,,,,,
+Test Cases/Make Sure Alert Appear When User Input Wrong Password,,,,2020-02-11 19:25:58,2020-02-11 19:26:03,4.124s,FAILED
+"openBrowser("""")",,,,2020-02-11 19:26:00,2020-02-11 19:26:02,2.799s,FAILED
+,,,,,,,
+Test Cases/Make sure user can login,,,,2020-02-11 19:26:03,2020-02-11 19:26:04,0.931s,FAILED
+"openBrowser("""")",,,,2020-02-11 19:26:03,2020-02-11 19:26:03,0.127s,FAILED

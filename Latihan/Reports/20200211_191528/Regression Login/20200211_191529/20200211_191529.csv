@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Login,Chrome 79.0.3945.130,,,2020-02-11 19:15:32,2020-02-11 19:17:19,1m - 47.359s,INCOMPLETE
+,,,,,,,
+Test Cases/Make Sure Alert Appear When User Input Wrong Password,Chrome 79.0.3945.130,,,2020-02-11 19:15:32,2020-02-11 19:16:20,48.378s,PASSED
+"openBrowser("""")",Chrome 79.0.3945.130,,,2020-02-11 19:15:33,2020-02-11 19:15:40,7.726s,PASSED
+"navigateToUrl(""https://www.lakupon.com"")",Chrome 79.0.3945.130,,,2020-02-11 19:15:40,2020-02-11 19:16:14,33.694s,PASSED
+"click(findTestObject(""Login/Page_LaKuponcom  Website Daily Deals Dengan Harga Promo Diskon Hingga 90/a_Profil""))",Chrome 79.0.3945.130,,,2020-02-11 19:16:14,2020-02-11 19:16:17,2.776s,PASSED
+"verifyElementText(findTestObject(""Login/Page_Login/label_No Ponsel atau email""), ""No Ponsel atau email"")",Chrome 79.0.3945.130,,,2020-02-11 19:16:17,2020-02-11 19:16:17,0.279s,PASSED
+"sendKeys(findTestObject(""Login/Page_Login/input_No Ponsel atau email_login""), ""munandar.workspace@gmail.com"")",Chrome 79.0.3945.130,,,2020-02-11 19:16:17,2020-02-11 19:16:17,0.357s,PASSED
+"click(findTestObject(""Login/Page_Login/button_Masuk""))",Chrome 79.0.3945.130,,,2020-02-11 19:16:17,2020-02-11 19:16:18,0.876s,PASSED
+"verifyElementPresent(findTestObject(""Login/Page_Login/input_Kata Sandi_password""), 5)",Chrome 79.0.3945.130,,,2020-02-11 19:16:18,2020-02-11 19:16:18,0.134s,PASSED
+"setEncryptedText(findTestObject(""Login/Page_Login/input_Kata Sandi_password""), ""v2YM3YkQ2cA="")",Chrome 79.0.3945.130,,,2020-02-11 19:16:18,2020-02-11 19:16:19,0.317s,PASSED
+"click(findTestObject(""Login/Page_Login/button_Masuk""))",Chrome 79.0.3945.130,,,2020-02-11 19:16:19,2020-02-11 19:16:19,0.741s,PASSED
+"text = getText(findTestObject(""NegativeCase/Page_Login/div_Email atau kata sandi salah""))",Chrome 79.0.3945.130,,,2020-02-11 19:16:19,2020-02-11 19:16:20,0.149s,PASSED
+"verifyElementText(findTestObject(""NegativeCase/Page_Login/div_Email atau kata sandi salah""), text)",Chrome 79.0.3945.130,,,2020-02-11 19:16:20,2020-02-11 19:16:20,0.141s,PASSED
+closeBrowser(),Chrome 79.0.3945.130,,,2020-02-11 19:16:20,2020-02-11 19:16:20,0.772s,PASSED
+,,,,,,,
+Test Cases/Make sure user can login,Chrome 79.0.3945.130,,,2020-02-11 19:16:20,2020-02-11 19:17:19,58.513s,PASSED
+"openBrowser("""")",Chrome 79.0.3945.130,,,2020-02-11 19:16:21,2020-02-11 19:16:26,5.497s,PASSED
+"navigateToUrl(""https://www.lakupon.com"")",Chrome 79.0.3945.130,,,2020-02-11 19:16:26,2020-02-11 19:17:05,38.350s,PASSED
+"click(findTestObject(""Login/Page_LaKuponcom  Website Daily Deals Dengan Harga Promo Diskon Hingga 90/a_Profil""))",Chrome 79.0.3945.130,,,2020-02-11 19:17:05,2020-02-11 19:17:07,2.870s,PASSED
+"verifyElementText(findTestObject(""Login/Page_Login/label_No Ponsel atau email""), ""No Ponsel atau email"")",Chrome 79.0.3945.130,,,2020-02-11 19:17:07,2020-02-11 19:17:08,0.290s,PASSED
+"sendKeys(findTestObject(""Login/Page_Login/input_No Ponsel atau email_login""), ""munandar.workspace@gmail.com"")",Chrome 79.0.3945.130,,,2020-02-11 19:17:08,2020-02-11 19:17:08,0.401s,PASSED
+"click(findTestObject(""Login/Page_Login/button_Masuk""))",Chrome 79.0.3945.130,,,2020-02-11 19:17:08,2020-02-11 19:17:13,4.725s,PASSED
+"verifyElementPresent(findTestObject(""Login/Page_Login/input_Kata Sandi_password""), 5)",Chrome 79.0.3945.130,,,2020-02-11 19:17:13,2020-02-11 19:17:13,0.346s,PASSED
+"setEncryptedText(findTestObject(""Login/Page_Login/input_Kata Sandi_password""), ""gtA9bMosRxsnSd5KeYzPZw=="")",Chrome 79.0.3945.130,,,2020-02-11 19:17:13,2020-02-11 19:17:13,0.223s,PASSED
+"click(findTestObject(""Login/Page_Login/button_Masuk""))",Chrome 79.0.3945.130,,,2020-02-11 19:17:13,2020-02-11 19:17:18,4.564s,PASSED
+"verifyElementText(findTestObject(""Login/Page_Profil/h1_Profil""), ""Profil"")",Chrome 79.0.3945.130,,,2020-02-11 19:17:18,2020-02-11 19:17:18,0.160s,PASSED
+closeBrowser(),Chrome 79.0.3945.130,,,2020-02-11 19:17:18,2020-02-11 19:17:19,0.792s,PASSED
